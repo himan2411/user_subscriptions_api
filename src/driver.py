@@ -17,3 +17,6 @@ def main():
     loader_obj.push_to_sql(df_messages, MESSAGE_TABLE)
     loader_obj.push_to_sql(df_subscriptions, SUBSCRIPTION_TABLE)
 
+if __name__ == "__main__":
+    main()
+
